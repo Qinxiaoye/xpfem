@@ -7,7 +7,14 @@ You should download all the code and install the following packages:
 * pyvista
 
 ## Features:
+* linear elasticity
+* 2D Quadrilateral element (Q1,Q2)
+* 3D Hexahedral element (Q1,Q2)
+* BBar element for 3D Q1 element
+* Perfect post-processing
+* Export VTK file
 
+## run code
 You can install the packages by
 1. pip install numpy
 2. pip install scipy
@@ -23,5 +30,5 @@ Run the test.py or other test file, you can get the displace and stress as follo
     <img src="https://github.com/Qinxiaoye/xpfem/blob/main/figure/pipe.png">
 </div>
 
-
+## parper the input files from ANSYS
 See <https://github.com/Qinxiaoye/FEM2D> to learn how to creat the input files from ANSYS
