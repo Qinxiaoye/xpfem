@@ -15,3 +15,6 @@ run the test.py or other test file, you can get the displace and stress as follo
 <div align="center">
     <img src="https://github.com/Qinxiaoye/xpfem/blob/main/figure/pipe.png">
 </div>
+
+
+See <https://github.com/Qinxiaoye/FEM2D> to learn how to creat the input files from ANSYS
