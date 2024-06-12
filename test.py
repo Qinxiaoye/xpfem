@@ -2,7 +2,7 @@ import numpy as np
 import xpfem as fem
 
 # read the mesh
-dir = 'input\\pipe'
+dir = 'input\\3D'
 mesh=fem.mesh.readtxt(dir+'\\'+'NLIST.dat',dir+'\\'+'ELIST.dat',dim=3)
 # Define Sets
 set = {'set1':np.arange(0,mesh.sumElem)}
@@ -33,7 +33,7 @@ Fe.FEM_steady(region,Numman,fix) # 也可以一步步求解，不用FEM_steady�
 
 # 后处理
 post = fem.Post(ndim,mnode)
-# post.showDisplacement(region,Fe.u,direction = 'y',show_deformed = True, scale = 1.0, show_shade = True, opacity = 0.2) # direction: x,y,z,sum,all
+# post.showDisplacement(region,Fe.u,direction = 'y',show_deformed = False, scale = 1.0, show_shade = True, opacity = 0.2) # direction: x,y,z,sum,all
 
 post.showStress(region,Fe.u,Fe.stress,Fe.mises,direction = 'mises') # direction: x,y,z,sum,all
 
