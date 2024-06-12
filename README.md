@@ -1,12 +1,17 @@
 # xpfem
 A python package for finite element method (FEM) in solid mechanics
 
-You should download all the code and install the follow packages:
+You should download all the code and install the following packages:
 * numpy
 * scipy
 * pyvista
 
-run the test.py or other test file, you can get the displace and stress as following
+You can install the packages by
+1. pip install numpy
+2. pip install scipy
+3. pip insall pyvista
+
+Run the test.py or other test file, you can get the displace and stress as following
 
 <div align="center">
     <img src="https://github.com/Qinxiaoye/xpfem/blob/main/figure/beam.png">
