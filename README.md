@@ -18,7 +18,7 @@ You should download all the code and install the following packages:
 You can install the packages by
 1. pip install numpy
 2. pip install scipy
-3. pip insall pyvista
+3. pip install pyvista
 
 Run the test.py or other test file, you can get the displace and stress as following
 
