@@ -1,5 +1,5 @@
 # xpfem
-A python package for finite element method (FEM) in solid mechanics
+A Python package for finite element method (FEM) in solid mechanics
 
 You should download all the code and install the following packages:
 * numpy
@@ -31,4 +31,7 @@ Run the test.py or other test file, you can get the displace and stress as follo
 </div>
 
 ## Preparing input files from ANSYS
-See <https://github.com/Qinxiaoye/FEM2D> to learn how to creat the input files from ANSYS
+See <https://github.com/Qinxiaoye/FEM2D> to learn how to create the input files from ANSYS
+
+## see video from:
+My bilibili (https://www.bilibili.com/video/BV14J4m1u7kC/?share_source=copy_web&vd_source=8381a0f0649669500500f77fc36946af)
